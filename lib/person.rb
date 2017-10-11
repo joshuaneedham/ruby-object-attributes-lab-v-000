@@ -1,9 +1,9 @@
 class Person
-  def person=(new_person)
-    @person = new_person
+  def name=(new_name)
+    @name = new_name
   end
   def person
-    "#{@person}"
+    "#{@name}"
   end
   def job=(new_job)
     @job = new_job
